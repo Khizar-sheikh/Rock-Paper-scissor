@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .remove-button {
+    background-color: #ff5050;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
