@@ -1,0 +1,139 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .background {
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .heading h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 2px 2px 4px yellow, -2px -2px 4px #00FFFF;
+  }
+  
+  h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .selections {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .selections button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff4b5c;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+  }
+  
+  .selections button:hover {
+    background-color: #ff3545;
+  }
+  
+  .selections button:active {
+    background-color: #ff1f35;
+  }
+  
+  .labels {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #compLabel {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f0b3d;
+    padding: 0 10px;
+  }
+  
+  #playerLabel {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f0b3d;
+    padding: 0 10px;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .scores div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 5px solid rgb(27, 27, 31);
+    margin: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .result-box {
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  #result-text {
+    font-size: 18px;
+  }
+  
+  .newround {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .newround button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff4b5c;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+  }
+  
+  .newround button:hover {
+    background-color: #ff6381;
+    transform: scale(1.1);
+  }
