@@ -25,17 +25,17 @@ function playround(playerSelection, computerSelection){
 }
 function game(){
    
-   let playerSelection=prompt('ROCK','PAPER','SCISSOR');
+   let playerSelection=prompt("Make  a choice ");
 
    let computerSelection= getComputerChoice();
    console.log(playround(playerSelection, computerSelection)); 
-   playerSelection=prompt('ROCK','PAPER','SCISSOR');
+   playerSelection=prompt("Make  a choice ");
    console.log(playround(playerSelection, computerSelection));   
-   playerSelection=prompt('ROCK','PAPER','SCISSOR'); 
+   playerSelection=prompt("Make  a choice "); 
    console.log(playround(playerSelection, computerSelection));    
-   playerSelection=prompt('ROCK','PAPER','SCISSOR');
+   playerSelection=prompt("Make  a choice ");
    console.log(playround(playerSelection, computerSelection));    
-   playerSelection=prompt('ROCK','PAPER','SCISSOR');
+   playerSelection=prompt("Make  a choice ");
    console.log(playround(playerSelection, computerSelection));
    
    console.log("Game Ended!")
