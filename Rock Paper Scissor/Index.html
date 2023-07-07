@@ -4,11 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissor</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <script src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js"></script> -->
   </head>
-  <body>
-    <h1>Rock Paper Scissors</h1>
+
+  <body class="background">
+    <div class="container">
+      <div class="heading">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h2>Choose Your Weapon</h2>
+      </div>
+      <div class="selections">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+      <div class="labels">
+        <span id="playerLabel">Player Score</span>
+        <span id="compLabel">Computer Score</span>
+      </div>
+      <div class="scores">
+        <div id="playerscore">0</div>
+        <div id="computerscore">0</div>
+      </div>
+      <h2>Results</h2>
+      <div class="result-box">
+        <p id="result-text"></p>
+      </div>
+
+      <div class="newround">
+        <button id="playagain">Play Again!</button>
+      </div>
+    </div>
+    <script src="script2.js"></script>
   </body>
 </html>
